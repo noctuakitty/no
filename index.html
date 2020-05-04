@@ -18,8 +18,8 @@
 
     <div class="jumbotron" id="no">
         <h1 class="display-3">DONT PRESS MY BUTTON</h1>
-        <a onclick="this.firstChild.play()" class="btn btn-primary btn-lg" href="#" role="button" data-toggle="modal" data-target=".modal"><audio
-                src="mp3/no-god-please-no-noooooooooo.mp3"></audio>&#9658;</a>
+        <a onclick="this.firstChild.play()" class="btn btn-primary btn-lg" href="#" role="button" data-toggle="modal"
+            data-target=".modal"><audio src="mp3/no-god-please-no-noooooooooo.mp3"></audio>&#9658;</a>
         </p>
     </div>
 
@@ -36,8 +36,8 @@
                                 </button>
                             </div>
                             <div class="modal-body">
-                                <h5 id="userMatch"></h5>
-                                <img id="userMatchImage" class="materialboxed" width="650" src="imgs/images.png">
+                                <p>YOU SHOULD NOT HAVE TOUCHED MY BUTTON</p>
+                                <img id="NO" class="materialboxed" width="650" src="imgs/images.png">
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -50,11 +50,9 @@
     </div>
 
     <script type="text/javascript">
-
-    window.setTimeout(function() {
-        $(".modal-dialog").modal("show");
-     }, 6000)
-
+        window.setTimeout(function () {
+            $(".modal-dialog").modal("show");
+        }, 6000)
     </script>
 </body>
 

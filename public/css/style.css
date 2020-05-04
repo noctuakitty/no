@@ -1,0 +1,10 @@
+#no {
+    text-align: center;
+}
+
+.modal-content {
+    width: 750px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
